@@ -6,19 +6,20 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
+    ".NET Core",
     "ASP.NET Core",
+    "ASP.NET",
     "React.js",
     "Node.js",
     "Next.js",
     "MVC",
     "C#",
-    "Entity Framework Core",
+    "Entity Framework",
     "LINQ",
     "Razor Pages",
     "SignalR",
     "SQL Server",
-    "Swagger",
-    "NuGet",
+    "PostgreSQL",
     "HTML5",
     "CSS3",
     "JavaScript",
