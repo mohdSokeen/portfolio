@@ -16,10 +16,25 @@ export default function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Apr 2023 - Present"
+            date="Nov 2025 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />} >
-            <h3 className="vertical-timeline-element-title">Software Developer</h3>
+            <h3 className="vertical-timeline-element-title">AeoLogic Technologies Pvt. Ltd.</h3>
+            <h4 className="vertical-timeline-element-title">Dot Net Developer</h4>
+            <h4 className="vertical-timeline-element-subtitle">Noida, IND</h4>
+            <p>
+              Full-stack Web Development, .NET Core Development, Dapper, MVC, C#, Rest-API, Postgresql, IIS
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Apr 2023 - Oct 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />} >
+            <h3 className="vertical-timeline-element-title">Arvius Software Pvt. Ltd.</h3>
+            <h4 className="vertical-timeline-element-title">Software Developer</h4>
             <h4 className="vertical-timeline-element-subtitle">Greater Noida, IND</h4>
             <p>
               Full-stack Web Development, .NET Core/ASP.NET Core Development, React.Js Development, Entity Framework, Dapper, MVC, C#, Rest-API, SQL Server, Git, Azure services
@@ -28,37 +43,16 @@ export default function Timeline() {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="Jan 2022 - Mar 2023"
+            date="Jan 2023 - Mar 2023"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />} >
-            <h3 className="vertical-timeline-element-title">Software developer trainee</h3>
+            <h3 className="vertical-timeline-element-title">Tinslab Pvt. Ltd.</h3>
+            <h4 className="vertical-timeline-element-title">Software Developer Trainee</h4>
             <h4 className="vertical-timeline-element-subtitle">Greater Noida, IND</h4>
             <p>
               ASP.NET Development, Entity Framework, MVC, C#, Web API, HTML, CSS, JavaScript, Bootstrap, Ajax, JQuery, SQL Server
             </p>
           </VerticalTimelineElement>
-          {/* <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />} >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />} >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
-            </p>
-          </VerticalTimelineElement> */}
         </VerticalTimeline>
       </div>
     </div>

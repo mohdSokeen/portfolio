@@ -3,6 +3,11 @@ import '../assets/styles/Project.scss';
 export default function Project() {
     const projects = [
         {
+            title: "National Hazardous Waste Tracking System (NHWTS)",
+            desc: "Worked on a government application for tracking and managing the lifecycle of hazardous waste, ensuring proper monitoring and regulatory compliance. Built and maintained core modules using .NET Core, handled database operations with PostgreSQL and Dapper, and resolved production issues across the system to maintain stability.",
+            skill: ".NET Core 8, C#, PostgreSQL, Dapper, AJAX, jQuery, Bootstrap, IIS",
+        },
+        {
             title: "Univeral Search and Replay",
             desc: "I built a Next.js single-page application to display Webex call data, with filtering options such as Date/Time, Call ID, Agent Name, and Extension. The data is sourced from a database. I integrated this application into the Webex portal, where authentication and authorization are handled by Webex. Since Webex is a Cisco product used for telecommunication and meetings, the Webex portal also provides an API service that enables this integration.",
             skill: "Next.js, API, SQL server",
